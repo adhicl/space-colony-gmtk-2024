@@ -1,0 +1,92 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99bd9e0320825564d94a57b3862aa630, type: 3}
+  m_Name: Data
+  m_EditorClassIdentifier: 
+  serverData:
+  - maxHealth: 50
+    maxChildren: 5
+    costPerTick: 5
+    priceUpgrade: 0
+    widthInfluence: 2.7
+    heightInfluence: 2.7
+    sizeCanvas: 3
+  - maxHealth: 100
+    maxChildren: 10
+    costPerTick: 10
+    priceUpgrade: 400
+    widthInfluence: 3.2
+    heightInfluence: 3.2
+    sizeCanvas: 3.5
+  - maxHealth: 200
+    maxChildren: 20
+    costPerTick: 20
+    priceUpgrade: 800
+    widthInfluence: 3.7
+    heightInfluence: 3.7
+    sizeCanvas: 4
+  - maxHealth: 400
+    maxChildren: 40
+    costPerTick: 40
+    priceUpgrade: 1600
+    widthInfluence: 4.2
+    heightInfluence: 4.2
+    sizeCanvas: 4.5
+  - maxHealth: 800
+    maxChildren: 80
+    costPerTick: 80
+    priceUpgrade: 3200
+    widthInfluence: 4.7
+    heightInfluence: 4.7
+    sizeCanvas: 5
+  databaseData:
+  - costPerTick: -2
+    priceUpgrade: 200
+  - costPerTick: -4
+    priceUpgrade: 400
+  - costPerTick: -8
+    priceUpgrade: 800
+  - costPerTick: -16
+    priceUpgrade: 1600
+  - costPerTick: -32
+    priceUpgrade: 3200
+  firewallData:
+  - costPerTick: 1
+    priceUpgrade: 200
+    damagePoint: 7
+  - costPerTick: 2
+    priceUpgrade: 400
+    damagePoint: 2
+  - costPerTick: 4
+    priceUpgrade: 800
+    damagePoint: 4
+  - costPerTick: 8
+    priceUpgrade: 1600
+    damagePoint: 8
+  - costPerTick: 16
+    priceUpgrade: 3200
+    damagePoint: 16
+  pirateData:
+  - health: 2
+    damagePoint: 4
+  - health: 4
+    damagePoint: 8
+  - health: 8
+    damagePoint: 16
+  - health: 16
+    damagePoint: 32
+  - health: 32
+    damagePoint: 64
+  - health: 64
+    damagePoint: 128
+  - health: 128
+    damagePoint: 256
